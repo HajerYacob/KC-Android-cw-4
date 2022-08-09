@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/min"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="303dp"
+        android:backgroundTint="#D3DF3A82"
+        android:text="-"
+        android:textColor="#297119"
+        android:textSize="29sp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="228dp"
+        android:backgroundTint="#D3DF3A82"
+        android:text="/"
+        android:textColor="#297119"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="98dp"
+        android:fontFamily="@font/actor"
+        android:text="total"
+        android:textColor="#297119"
+        android:textColorHint="#BCFFFFFF"
+        android:textSize="39sp" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="248dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="451dp"
+        android:backgroundTint="#F1EDED"
+        android:ems="10"
+        android:hint="first number"
+        android:inputType="textPersonName"
+        android:text="first number"
+        android:textColor="#297119" />
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="523dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Calculator"
+        android:textColor="#297119"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/mult"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#D3DF3A82"
+        android:text="+"
+        android:textColor="#297119"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="228dp"
+        android:backgroundTint="#D3DF3A82"
+        android:text="x"
+        android:textColor="#297119"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="248dp"
+        android:layout_height="75dp"
+        android:layout_alignEnd="@+id/number1"
+        android:layout_alignBottom="@+id/number1"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginBottom="-88dp"
+        android:backgroundTint="#F1EDED"
+        android:ems="10"
+        android:hint="second number"
+        android:inputType="textPersonName"
+        android:text="Second number"
+        android:textColor="#297119" />
+
+
+</RelativeLayout>
